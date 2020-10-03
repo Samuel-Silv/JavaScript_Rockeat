@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <title>Curso JS-Aula08</title>
+</head>
+
+<body>
+    <script>
+        // condição ternária
+
+        var sexo = 'm';
+
+        var retorno = (sexo === 'm') ? 'masculino' : 'feminino'
+        alert(retorno);
+    </script>
+</body>
+
+</html>
