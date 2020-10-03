@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <title>Curso JS-Aula04</title>
+</head>
+
+<body>
+    <script>
+        var x = 10,
+            y = 5;
+
+        //        var resul = x + y; soma
+        x = x + 3; //incrementação
+        alert(x);
+    </script>
+</body>
+
+</html>
