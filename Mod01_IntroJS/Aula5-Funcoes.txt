@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Curso JS-Aula05</title>
+</head>
+
+<body>
+    <script>
+        function soma(num1, num2) {
+            var resul = num1 + num2;
+            return resul;
+
+        }
+        //podemos utilizar a variavel em blocos diferentes
+        var resul = soma(1, 2);
+        alert(resul);
+    </script>
+</body>
+
+</html>
