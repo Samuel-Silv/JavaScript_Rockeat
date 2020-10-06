@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>TRabalhandoComADOM-JS</title>
+</head>
+
+<body>
+    <div id="app">
+        <input type="text" name="nome" />
+        <button class="botao">Adicionar</button>
+    </div>
+    <script>
+        // var inputElement = document.getElementById('nome');
+        //var inputElement = document.getElementByTagNAme('input')[0]; 
+        //caso haja diversos elementos, com o elementbytagname
+        //podemos chamar todos ou apenas um utilizando a array[0] 
+        var inputElement = document.querySelector('body div#app input');
+        //var inputElement = document.getElementById('txtNome');
+
+        var btnElement = document.querySelector('button.botao');
+
+        btnElement.onclick = function() {
+            alert(inputElement.value);
+        }
+    </script>
+
+
+</body>
+
+</html>
