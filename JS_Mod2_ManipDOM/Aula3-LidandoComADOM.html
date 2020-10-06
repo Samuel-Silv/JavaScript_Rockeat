@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>LidandoComADOM-JS</title>
+</head>
+
+<body>
+    <div id="app">
+        <input id="nome" />
+        <button class="botao">Adicionar</button>
+    </div>
+    <script>
+        var linkElement = document.createElement('a');
+        linkElement.setAttribute('href', 'https://www.youtube.com/');
+        //   linkElement.setAttribute('title', 'site do YouTube');
+        var textElement = document.createTextNode('Acessar o youtube');
+        linkElement.appendChild(textElement);
+
+        var containerElement = document.querySelector('#app');
+        containerElement.appendChild(linkElement);
+
+        //para apagar um elemento da DOM via codigo
+        //para apagar um elemento da DOM via codigo
+        //para apagar um elemento da DOM via codigo
+        var inputElement = document.querySelector('#nome');
+        containerElement.removeChild(inputElement);
+    </script>
+
+
+</body>
+
+</html>
